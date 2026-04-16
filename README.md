@@ -57,7 +57,7 @@ Since this is a regression problem, the following metrics were used:
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 * Random Forest performed better than XGBoost on this dataset
 * XGBoost required careful hyperparameter tuning
@@ -65,7 +65,17 @@ Since this is a regression problem, the following metrics were used:
 
 ---
 
-## 🚀 How to Run the Project
+## Model Performance
+
+| Model | Mean Squared Error (MSE) | R² Score |
+|------|--------------------------|---------|
+| Linear Regression | 4.2557 | 0.0039 |
+| Polynomial Regression | 3.727 | 0.1276 |
+| Random Forest Regression | 0.8157 | 0.8091 |
+| XGBoost Regression | 1.0423 | 0.7560 |
+
+
+## How to Run the Project
 
 1. Clone the repository:
 
@@ -123,7 +133,11 @@ python main.py
 This project is based on experimental creep data and aims to bridge material science with machine learning.
 
 ---
+## Conclusion
 
+The study demonstrates that creep behavior is highly non-linear, and ensemble models like Random Forest are more effective than traditional regression techniques for accurate prediction.
+
+---
 ## Contact
 
 Feel free to reach out for collaboration or suggestions!
