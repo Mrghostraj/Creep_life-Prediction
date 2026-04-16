@@ -28,7 +28,7 @@ The dataset consists of experimental creep data with features such as:
 
 ## Technologies Used
 
-* Python 🐍
+* Python 
 * NumPy
 * Pandas
 * Matplotlib
@@ -37,7 +37,7 @@ The dataset consists of experimental creep data with features such as:
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 The following models were implemented and compared:
 
@@ -48,7 +48,7 @@ The following models were implemented and compared:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 Since this is a regression problem, the following metrics were used:
 
