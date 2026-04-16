@@ -80,7 +80,7 @@ Since this is a regression problem, the following metrics were used:
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com//creep-life-prediction.git]
+git clone https://github.com//creep_life-prediction.git
 ```
 
 2. Navigate to the project folder:
